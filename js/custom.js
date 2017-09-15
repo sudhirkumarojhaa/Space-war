@@ -4,7 +4,6 @@ var playerName = prompt("Please Enter your name");
 var newPlayer = document.getElementById("name");
 newPlayer.innerHTML = playerName;
 var blast = $('.blast');
-var spaceship = $('#spaceship');
 
 var info = $('.instructions');
 $(".infos").click(function () {
@@ -44,7 +43,6 @@ $('.restart').click(function () {
 });
 
 $('.btnStartGame').click(function () {
-  spaceship.show();
   $('.welcome').fadeOut();
   setTimeout(function () {
     $('#space').css({

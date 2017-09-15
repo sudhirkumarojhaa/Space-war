@@ -41,7 +41,6 @@ h3 {
   top: 8%;
   left: 8%;
   transition: 1s all linear;
-  display: none;
 }
 
 #spaceship.goDown {
