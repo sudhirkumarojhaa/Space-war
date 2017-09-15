@@ -175,8 +175,8 @@ img {
 }
 
 li {
-  color: #ff3131;
-  font-size: 54px;
+  color: #fff;
+  font-size: 40px;
   list-style: square;
   font-family: 'Montserrat', sans-serif;
   padding: 30px;
@@ -186,7 +186,7 @@ li {
   background: url("../img/space.jpg") repeat-x;
   padding: 20px 50px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border: 5px solid #fff;
   position: absolute;
   width: 100%;
